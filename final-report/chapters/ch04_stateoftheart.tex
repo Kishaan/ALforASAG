@@ -1,0 +1,72 @@
+%!TEX root = ../report.tex
+
+\chapter{State of the Art}
+
+\section{Concept mapping based methods:}
+Concept mapping based techniques refers to splitting student answer into various concepts and graded based on the existence or non-existence of individual concepts\cite{Burrows2015}.
+
+\begin{itemize}
+	\item Callear et al.(2001) \cite{Callear2001}	developed a  computer-assisted assessment (CAA) termed as Automated Text Marker (ATM) in which the answers are  split  into  their  smallest  viable  unit  of concepts. All the atomic concepts are given some weight for the purpose of grading.
+	
+	\item Leacock et al. (2003)\cite{Leacock2003} developed an automated scoring system called C-rater for ETS(Educational Testing Service) technologies to grade responses to content-based short answers based on the syntactical matching(subject, object, and verb). This uses deep natural language processing to determine the correctness of student responses. The preprocessing steps done by the c-rater systems include spelling correction, determining the grammatical structure of each sentence, resolving pronoun reference and analyzing paraphrases.
+	
+	\item Brill et al. (2002) \cite{Brill2002} developed a question answering system called AskMSR. It uses the techniques such as query-reformulation, n-gram mining, filtering, and n-gram tiling. This system reformulates queries as declarative sentence segments to help query-answer matching. The shortcoming of this approach is that it works only when the (exact) content words appearing in a query appears also in the answer.
+	
+\end{itemize}
+
+
+\section{Information extraction based methods:}
+
+Information extraction system refers to 
+extracting patterns from student answer followed by a series of pattern matching operations that includes regular expression or parse trees \cite{Burrows2015}.
+
+\begin{itemize} 
+	
+	\item Bachman et al. (2002) \cite{Bachman2002} developed a short answer scoring system called WebLAS.  This system extracts regular expressions from a model answer to generate a scoring key. This grading system finds important segments of teacher answers through parsing and prompt the teacher to confirm the weights. It also prompts the teacher to confirm or decline the semantically similar alternatives.
+	\item Mitchelle et al. (2002) \cite{Mitchell2002} discuss a software called AutoMark, which is developed to achieve robust grading of short answers for open-ended questions. This approach employs information extraction techniques to provide computerized marking of short free-text responses. Student answers are first parsed, and then intelligently matched against each mark scheme template, and a mark for each answer is computed. 
+	\item Oxford UCLES is an information extraction short answer scoring system that was developed at the Oxford University.  which uses hand-crafted patterns by human experts to compare the answers with the model answer by Pulman et al. (2005) \cite{Pulman2005}. This work compares information extraction with both hand-crafted and machine learning assisted pattern matching.  The results of attempting to use machine learning strategies to extract patterns were not satisfactory.  It was concluded that hand-crafted patterns perform better than machine learned patterns. 
+	\item Jordan and Mitchell (2009) \cite{Jordan2009} developed a graphical user interface(FreeText Author) for short answer grading whereby the teacher’s model answer is converted into syntactic-semantic templates for the student answers to be matched against. The question authors don’t have to be well versed in Natural Processing Techniques as the model creates the patterns from the correct answers by its own.
+	\item Raheel Siddiqi (2010)\cite{Siddiqi2010} proposes a grading system that works on the structure of students' answer. It simply uses question answer markup language (QAML) to represent the required answer structures. The evaluation process starts with spell checking and some basic linguistic analysis, then the system matches the student’s answer text structure with the required saved structure to compute the final mark.
+	\item Meurers et al. (2011) \cite{Meurers2011} and Hahn et al. (2012) \cite{Hahn2012} used semantic analysis to align student and target answers, including functional roles such as subject/object, gives better performance over similarity measures.
+	\item Higgins et al. (2014) \cite{Higgins2014} work describe the importance and the efficiency of syntactically-informed features like n-gram features, language model features, dependency features, k-nearest neighbor features and discourse segment features in short answer grading.
+	\item Ramachandran et al. (2015) \cite{Ramachandran2015} developed a short answer scoring system to provide effective scoring using automatic pattern extraction. Word-order graphs and semantic metrics(Lexico-semantic matching technique) were used to identify important patterns automatically from human-provided rubric texts and top-scoring student answers. Patterns were automatically extracted using two algorithms namely, generating patterns containing unordered content tokens and generating patterns containing sentence structure or phrase pattern information.
+	
+\end{itemize}
+
+\section{Corpus based methods:}
+
+Corpus-based methods are the statiscal methods that uses large document corpora(wikipedia, google etc.,) to obtain informations like synonyms, degree of similarity,frequency of term pairs etc. \cite{Burrows2015},
+
+\begin{itemize}
+	\item Mihalcea et al.,(2006) \cite{Mihalcea2006} found comparable results to corpus-based measures by using word-to-word similarity measures.
+	\item Nielsen et al., (2009) \cite{Nielsen2009}proposed a dependency-based classification component called Intelligent Tutoring System. In this approach, the instructor answers are parsed, enhanced, and manually converted into a set of content-bearing dependency triples or facets. The system uses a decision tree trained on part-of-speech tags, dependency types, word count, and other features to attempt to learn how best to classify an answer/facet pair.
+	\item Mohler and Mihalcea (2009) \cite{Mohler2009} use the similarity between the students’ answers and the teacher’s answers for automatic short answer grading. This work addresses topics such as comparison of knowledge-based and corpus-based measures of text similarity, evaluation of the effect of domain and size on the corpus-based measures, and a novel technique to improve the performance of the system by integrating automatic feedback from the student answers. Eight knowledge-based measures of semantic similarity and two corpus-based semantic similarities for short answer grading were successfully compared. They also created a dataset of questions, students answers and the grades for those answers given by two human annotators. Making the dataset open-source contributed a lot to other researchers to benchmark their implementations on it.
+	\item Gomaa and Fahmy (2012) \cite{Gomaa2012} use string similarity and corpus-based similarity for automatic short answer grading. In addition to comparing different similarity measures, they compared the usefulness of two different corpora as well and this gave some insight into the useful features of a corpus. This work also reinforced the fact that short answer grading could be formulated as a similarity task.
+	
+\end{itemize}
+
+\section{Machine learning based methods:}
+
+Machine learning based approaches refers to training a model utilizing the features extracted using  natural language processing techniques \cite{Burrows2015}.
+
+\begin{itemize}
+	\item Mohler et al. (2011) \cite{Mohler2011} like his previous approach uses the similarity between the students’ answers and the teacher’s answers for grading but incorporated several graph alignment features along with lexical semantic similarity measures This approach uses machine learning techniques and concludes that the student answers can be more accurately graded by incorporating the graph alignment features along with semantic measures. An attempt was also made to align the dependency graphs of the student and the instructor answers in order to make use of a structural component in the automatic grading of student answers.
+	\item Fast, simple, and high-performance short answer grading system was proposed by Sultan et al. (2016) \cite{Sultan2016} that uses text similarity features such as word alignment, embeddings, question demoting, term weighting and length ratio was proposed. A supervised learning model is trained using this features to predict the grades for short answer grading.     
+	
+	\item Basu et al. (2013) \cite{Basu2013} developed an approach termed as Powergrading. This approach of divide and conquer the short answers proved to be useful in reducing the number of actions required for grading them by extending the impact of a small number of user actions when grading resources are limited. Their work incorporates clustering in short answer grading to cluster the similar answers together. This work gave an efficient solution to one of the main deficits of automated short answer grading, namely, capturing the modes of misunderstanding among the students’ answers.
+	
+	\item Zesch et al. (2015) \cite{zesch2015}  Weka’s k-means clustering to cluster the data, with k equal to the desired number of training instances. This approach first uses clustering to get clusters, then the human annotator labels the data and then a classification model is built.
+	
+\end{itemize}
+\newpage
+\section{Active learning in the context of  Natural language processing}
+
+\begin{itemize}
+	\item Dmitriy et al. (2011) \cite{dligach2011} proposed an unsupervised language modeling based technique in order to overcome the slow learning rate due to random seed selection. In the classification task, rare classes were captured to improve the faster learning progress. This method is applied to word sense disambiguation.
+	\item Rosa et al. (2012) \cite{figueroa2012} explore the active learning algorithms to overcome the need for large training datasets. Three existing active learning algorithms (distance-based (DIST), diversity-based (DIV), and a combination of both (CMB)) were used to classify text from five datasets.  The results indicate that the appropriate active learning algorithms (DIST and CMB algorithms) can yield performance comparable to that of passive learning with considerably smaller training sets.
+	\item Andrew et al. (1998) \cite{mccallumzy1998} formulated an approach that uses a combination of active learning approaches along with Expectation Maximization(EM)  to overcome the need for the large labeled dataset. The results indicate that by labeling half of the overall dataset, the performance of fully labeled dataset is achieved.
+	\item Simon et al. (2002)\cite{tong2001} approach deal with using support vector machine active learning for text classification. They provided an algorithm for choosing which instances to request next. It uses pool-based active learning instead of random seed selection. The results show that employing active learning algorithm can reduce the effort of labeling instances in both standard inductive and transductive settings
+	
+\end{itemize}
+
+\section{Limitations of previous work}

@@ -1,0 +1,383 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{Burrows2015}{book}{}
+    \name{author}{3}{}{%
+      {{hash=BS}{%
+         family={Burrows},
+         familyi={B\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GI}{%
+         family={Gurevych},
+         familyi={G\bibinitperiod},
+         given={Iryna},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Stein},
+         familyi={S\bibinitperiod},
+         given={Benno},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Automatic grading,Natural language processing,Short answer}
+    \strng{namehash}{BSGISB1}
+    \strng{fullhash}{BSGISB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Abstract Automatic short answer grading (ASAG) is the task of assessing
+  short nat- ural language responses to objective questions using computational
+  methods. The active research in this field has increased enormously of late
+  with over 80 papers fit- ting a definition of ASAG. However, the past efforts
+  have generally been ad-hoc and non-comparable until recently, hence the need
+  for a unified view of the whole field. The goal of this paper is to address
+  this aim with a comprehensive review of ASAG research and systems according
+  to history and components. Our historical analysis identifies 35 ASAG systems
+  within 5 temporal themes that mark advancement in methodology or evaluation.
+  In contrast, our component analysis reviews 6 common dimensions from
+  preprocessing to effectiveness. A key conclusion is that an era of evaluation
+  is the newest trend in ASAG research, which is paving the way for the
+  consolidation of the field.%
+    }
+    \field{booktitle}{International Journal of Artificial Intelligence in
+  Education}
+    \verb{doi}
+    \verb 10.1007/s40593-014-0026-8
+    \endverb
+    \field{isbn}{4059301400268}
+    \field{issn}{15604306}
+    \field{number}{1}
+    \field{pages}{60\bibrangedash 117}
+    \field{title}{{The eras and trends of automatic short answer grading}}
+    \field{volume}{25}
+    \verb{file}
+    \verb :home/black-book/HBRS/II/RnD/NLP Papers/The Eras and Trends of Automa
+    \verb tic Short Answer Grading.pdf:pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{dligach2011}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=DD}{%
+         family={Dligach},
+         familyi={D\bibinitperiod},
+         given={Dmitriy},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Palmer},
+         familyi={P\bibinitperiod},
+         given={Martha},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Association for Computational Linguistics}%
+    }
+    \strng{namehash}{DDPM1}
+    \strng{fullhash}{DDPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 49th Annual Meeting of the Association
+  for Computational Linguistics: Human Language Technologies: short
+  papers-Volume 2}
+    \field{pages}{6\bibrangedash 10}
+    \field{title}{Good seed makes a good crop: accelerating active learning
+  using language modeling}
+    \field{year}{2011}
+  \endentry
+
+  \entry{figueroa2012}{article}{}
+    \name{author}{5}{}{%
+      {{hash=FRL}{%
+         family={Figueroa},
+         familyi={F\bibinitperiod},
+         given={Rosa\bibnamedelima L},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ZTQ}{%
+         family={Zeng-Treitler},
+         familyi={Z\bibinitperiod-T\bibinitperiod},
+         given={Qing},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=NLH}{%
+         family={Ngo},
+         familyi={N\bibinitperiod},
+         given={Long\bibnamedelima H},
+         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Goryachev},
+         familyi={G\bibinitperiod},
+         given={Sergey},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WEP}{%
+         family={Wiechmann},
+         familyi={W\bibinitperiod},
+         given={Eduardo\bibnamedelima P},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {BMJ Group BMA House, Tavistock Square, London, WC1H 9JR}%
+    }
+    \strng{namehash}{FRL+1}
+    \strng{fullhash}{FRLZTQNLHGSWEP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{5}
+    \field{pages}{809\bibrangedash 816}
+    \field{title}{Active learning for clinical text classification: is it
+  better than random sampling?}
+    \field{volume}{19}
+    \field{journaltitle}{Journal of the American Medical Informatics
+  Association}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Settles2010}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SB}{%
+         family={Settles},
+         familyi={S\bibinitperiod},
+         given={Burr},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SB1}
+    \strng{fullhash}{SB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    The key idea behind active learning is that a machine learning algorithm
+  can achieve greater accuracy with fewer training labels if it is allowed to
+  choose the data from which it learns. An active learner may pose queries,
+  usually in the form of unlabeled data instances to be labeled by an oracle
+  (e.g., a human annotator). Active learning is well-motivated in many modern
+  machine learning problems, where unlabeled data may be abundant or easily
+  obtained, but labels are difficult, time-consuming, or expensive to obtain.
+  This report provides a general introduction to active learning and a survey
+  of the literature. This includes a discussion of the scenarios in which
+  queries can be formulated, and an overview of the query strategy frameworks
+  proposed in the literature to date. An analysis of the empirical and
+  theoretical evidence for successful active learning, a summary of problem
+  setting variants and practical issues, and a discussion of related topics in
+  machine learning research are also presented.%
+    }
+    \verb{doi}
+    \verb 10.1.1.167.4245
+    \endverb
+    \verb{eprint}
+    \verb 1206.5533
+    \endverb
+    \field{isbn}{978-1-4673-8391-2}
+    \field{issn}{00483931}
+    \field{number}{2}
+    \field{pages}{201\bibrangedash 221}
+    \field{title}{{Active Learning Literature Survey}}
+    \field{volume}{15}
+    \verb{file}
+    \verb :home/black-book/HBRS/II/RnD/NLP Papers/Active Learning Literature Su
+    \verb rvey.pdf:pdf
+    \endverb
+    \field{journaltitle}{Machine Learning}
+    \field{eprinttype}{arXiv}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Mohler2011}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MM}{%
+         family={Mohler},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BR}{%
+         family={Bunescu},
+         familyi={B\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mihalcea},
+         familyi={M\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MMBRMR1}
+    \strng{fullhash}{MMBRMR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{752\bibrangedash 762}
+    \field{title}{{Learning to grade short answer questions using semantic
+  similarity measures and dependency graph alignments}}
+    \verb{file}
+    \verb :home/black-book/HBRS/II/RnD/NLP Papers/Learning to Grade Short Answe
+    \verb r Questions using Semantic Similarity Measures and Dependency Graph A
+    \verb lignments - Mohler.pdf:pdf
+    \endverb
+    \field{year}{2011}
+  \endentry
+
+  \entry{dzikovska2013}{report}{}
+    \name{author}{9}{}{%
+      {{hash=DMO}{%
+         family={Dzikovska},
+         familyi={D\bibinitperiod},
+         given={Myroslava\bibnamedelima O},
+         giveni={M\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=NRD}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Rodney\bibnamedelima D},
+         giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Brew},
+         familyi={B\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Leacock},
+         familyi={L\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Giampiccolo},
+         familyi={G\bibinitperiod},
+         given={Danilo},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={Bentivogli},
+         familyi={B\bibinitperiod},
+         given={Luisa},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CP}{%
+         family={Clark},
+         familyi={C\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Dagan},
+         familyi={D\bibinitperiod},
+         given={Ido},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=DHT}{%
+         family={Dang},
+         familyi={D\bibinitperiod},
+         given={Hoa\bibnamedelima T},
+         giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DMO+1}
+    \strng{fullhash}{DMONRDBCLCGDBLCPDIDHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Semeval-2013 task 7: The joint student response analysis and
+  8th recognizing textual entailment challenge}
+    \list{institution}{1}{%
+      {NORTH TEXAS STATE UNIV DENTON}%
+    }
+    \field{type}{techreport}
+    \field{year}{2013}
+  \endentry
+
+  \entry{tf_idf_defi}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\url{https://en.wikipedia.org/wiki/Tf-idf}}
+    \field{note}{Accessed: 2018-11-22}
+    \field{title}{tf-idf}
+  \endentry
+
+  \entry{ramesh2}{unpublished}{}
+    \field{labeltitlesource}{title}
+    \field{note}{WS17 H-BRS - Evaluation of Semantic Textual Similarity
+  Approaches for Automatic Short Answer Grading Ploeger, Nair supervising}
+    \field{title}{Evaluation of Semantic Textual Similarity Approaches for
+  Automatic Short Answer Grading}
+    \field{year}{2017/18}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Sultan2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SMA}{%
+         family={Sultan},
+         familyi={S\bibinitperiod},
+         given={Md\bibnamedelima Arafat},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Salazar},
+         familyi={S\bibinitperiod},
+         given={Cristobal},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Sumner},
+         familyi={S\bibinitperiod},
+         given={Tamara},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SMASCST1}
+    \strng{fullhash}{SMASCST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    We present a fast, simple, and high-accuracy short answer grading system.
+  Given a short-answer question and its correct answer, key measures of the
+  correctness of a student re-sponse can be derived from its semantic
+  sim-ilarity with the correct answer. Our super-vised model (1) utilizes
+  recent advances in the identification of short-text similarity, and (2)
+  augments text similarity features with key grading-specific constructs. We
+  present exper-imental results where our model demonstrates top performance on
+  multiple benchmarks.%
+    }
+    \verb{doi}
+    \verb 10.18653/v1/N16-1123
+    \endverb
+    \field{isbn}{9781941643914}
+    \field{pages}{1070\bibrangedash 1075}
+    \field{title}{{Fast and Easy Short Answer Grading with High Accuracy}}
+    \verb{file}
+    \verb :home/black-book/HBRS/II/RnD/NLP Papers/Fast and Easy Short Answer Gr
+    \verb ading with High Accuracy.pdf:pdf
+    \endverb
+    \field{journaltitle}{Conference of the North American Chapter of the
+  Association for Computational Linguistics: Human Language Technologies}
+    \field{year}{2016}
+  \endentry
+\enddatalist
+\endinput
