@@ -25,9 +25,11 @@
 % Report options
 \DeclareOption{twosides}{
   \PassOptionsToClass{\CurrentOption}{book}
+  \PassOptionsToPackage{left=4cm,right=2cm}{geometry}
 }
 \DeclareOption{oneside}{
     \PassOptionsToClass{\CurrentOption}{book}
+    \PassOptionsToPackage{left=4cm,right=2cm, asymmetric}{geometry}
 }
 % Execute the default option
 \ExecuteOptions{thesis}
@@ -145,9 +147,9 @@ Supervised by\par
     \hbox{}
     \vfill
     \noindent
-    I, the undersigned below, declare that this work has not previously been
+    We, the undersigned below, declare that this work has not previously been
     submitted to this or any other university and that it is, unless otherwise stated,
-    entirely my own work.
+    entirely our own work.
     \vskip 60pt
 
     \hrule width 4cm
@@ -156,7 +158,17 @@ Supervised by\par
 
     \vskip -3pt
 
-    \leftline{\hspace{1.5cm} Date \hfill \@author \hspace{1.5cm}}
+    \leftline{\hspace{1.5cm} Date \hfill Jeeveswaran Kishaan \hspace{-0.2cm}}
+    
+    \vspace{15mm}
+    
+    \hrule width 4cm
+    \hfill \hspace{5cm}
+    \hrulefill
+    
+    \vskip -3pt
+    
+    \leftline{\hspace{1.5cm} Date \hfill Mohandass Muthuraja \hspace{-0.2cm}}
 
     \vskip 60pt
     \clearpage
@@ -199,6 +211,10 @@ Supervised by\par
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+\newenvironment{contribution}{%
+\chapter*{Contributions}
+}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PAGE LAYOUT
